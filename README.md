@@ -28,7 +28,9 @@ The goal is to build a robust classifier that performs well across centers using
 ├── pretrained_models/         # Folder for downloaded model weights
 ├── output_files/              # Folder where submission CSV is saved
 └── data/                      # HDF5 files: train.h5, val.h5, test.h5
+```
 
+---
 
 ## 🔧 Setup Instructions
 
