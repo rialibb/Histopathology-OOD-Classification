@@ -41,7 +41,7 @@ class SEHead(nn.Module):
         se = self.se_relu(se)
         se = self.se_fc2(se)
         se = self.se_sigmoid(se)
-        x = x * se  # channel-wise scaling
+        x = x * se  
 
         x = self.out(x)
         x = self.out_activation(x)
